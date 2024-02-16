@@ -41,7 +41,7 @@ const login = () => {
           </div>
       <div className="col-12 col-sm-12 col-md-8 col-lg-6 welcome-msg">
           <h1>Ah, well met, weary traveler!</h1>
-          <h4>Ye've stumbled upon Ullr's Tavern, the finest establishment this side of the Misty Mountains.</h4>
+          <h4>Ye've stumbled upon Ullr's Tavern, the finest video game enthusiasts' establishment this side of the Misty Mountains.</h4>
           <p>Aye, we dwarves may be known for our love of stone and gold, but here, we treasure good company and a hearty mug of ale just as much. Take a load off, friend, and find yerself a cozy seat at any table that tickles yer fancy. Our hearth's warmth and the songs of the hearthlings will chase away the chill of the road, and I promise ye won't find a finer ale in all of Middle-earth.</p>
           <Button onClick={login} className="bg-primary text-dark">Login</Button>
           <Button onClick={signup} className="bg-warning text-dark">Signup</Button>

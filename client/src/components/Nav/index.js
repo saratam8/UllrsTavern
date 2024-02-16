@@ -9,6 +9,9 @@ function Nav() {
     whiteSpace:'nowrap',
     display:'inline-flex',
     margin:'auto',
+    fontFamily: 'Slab',
+    fontSize: '1.5rem',
+    fontWeight: '600',
   };
   
   function showNavigation() {
@@ -62,7 +65,7 @@ function Nav() {
         <Link to="/">
 
         <img src="/ut-logo.png" className="logo col-3" alt="logo" />
-        <div className="col-6" style={logoStyle}>Ullr's Tavern: Video Game Enthusiasts' Hub</div>
+        <div className="col-6" style={logoStyle}>Ullr's Tavern</div>
         </Link>
         </div>
         <div className="col-12">
