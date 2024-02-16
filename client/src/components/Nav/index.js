@@ -5,6 +5,12 @@ import "./index.css";
 
 function Nav() {
 
+  const logoStyle = {
+    whiteSpace:'nowrap',
+    display:'inline-flex',
+    margin:'auto',
+  };
+  
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
@@ -52,11 +58,11 @@ function Nav() {
 
   return (
     <header className="flex-row px-1 container">
-      <div className="col-12 logo">
+      <div style={logoStyle}>
         <Link to="/">
 
-        <img src="/ut-logo.png" className="logo" alt="logo" />
-
+        <img src="/ut-logo.png" className="logo col-3" alt="logo" />
+        <div className="col-6" style={logoStyle}>Ullr's Tavern: Video Game Enthusiasts' Hub</div>
         </Link>
         </div>
         <div className="col-12">

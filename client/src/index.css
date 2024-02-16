@@ -352,7 +352,7 @@ input:focus {
 
 .logo {
   width: 100px;
-  margin: 0 auto;
+  margin: auto;
   padding: 1rem 0 .5rem 0;
 }
 
